@@ -1,0 +1,92 @@
+body {
+    background-color: #add8e6; /* Warna biru muda */
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #007bff; /* Warna biru Bootstrap */
+    color: white;
+    padding: 5px; /* Mengurangi padding header */
+    width: 100%;
+}
+
+header img {
+    max-width: 5%; /* Mengurangi lebar maksimum gambar header */
+    height: auto;
+    border-radius: 8px; /* Gaya tambahan sesuai kebutuhan Anda */
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#about {
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 16px; /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+    margin-bottom: 10px;
+}
+
+#about img {
+    max-width: 50%; /* Mengurangi lebar maksimum gambar */
+    height: auto;
+    border-radius: 8px; /* Gaya tambahan sesuai kebutuhan Anda */
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 12px; /* Mengurangi ukuran font deskripsi */
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+#experience img {
+    width: 30%;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#experience img:hover {
+    transform: scale(1.1);
+}
+
+#experience p {
+    width: 100%;
+    text-align: center;
+}
+
+#skills {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill {
+    margin: 10px;
+}
+
+.skill img {
+    width: 80px; /* Sesuaikan ukuran gambar */
+    height: 80px;
+    margin-bottom: 10px;
+}
